@@ -1,0 +1,65 @@
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    /* Adicione esta linha para garantir que o body ocupe 100% da altura da viewport */
+    margin: 0;
+    /* Remova margem padrão do body */
+}
+
+#entry {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* Se você quiser ter um layout em coluna */
+    align-items: center;
+    /* Para centralizar o conteúdo dentro da caixinha */
+    justify-content: center;
+    /* Para centralizar o conteúdo dentro da caixinha */
+    left: 50%;
+    /* Posiciona 50% da largura da tela */
+    top: 50%;
+    /* Posiciona 50% da altura da tela */
+    transform: translate(-50%, -50%);
+    /* Ajusta a posição para realmente centralizar */
+    border: 1px solid black;
+    height: 400px;
+    width: 500px;
+    /* Defina uma largura adequada */
+    background: white;
+    /* Adicione um fundo para visualizar melhor */
+    padding: 30px;
+    /* Adicione um pouco de espaço interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Para um efeito de sombra */
+}
+
+#div-dificuldade {
+    top: 30px;
+    position: relative;
+
+}
+
+#dificuldade {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+#div-btentry {
+    top: 60px;
+    position: relative;
+
+}
+
+#nome {
+    height: 50px;
+    text-align: center;
+}
+
+#div-titulo {
+    position: relative;
+    bottom: 70px;
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+}
